@@ -6,7 +6,7 @@ import { styles } from "../lib/styles";
 import * as React from 'react';
 import { Button } from 'react-native-paper';
 
-export const Login = () => {
+export const Loginemanu = () => {
     const [text, setEmail] = useState('');
     const [password, setPassword] = useState('');
     return (
