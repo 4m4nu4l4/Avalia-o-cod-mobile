@@ -4,6 +4,7 @@ import { HomeManu } from "../screens/Home";
 
 import { Loginemanu } from "../screens/Login";
 import { SobreManu } from "../screens/Sobre";
+import { tafoda } from "../screens/teste";
 
 
 
@@ -43,6 +44,16 @@ export const RootNavigation = () => {
                     tabBarLabel: 'Sobre',
                     tabBarIcon: ({ color }) => (
                         <MaterialCommunityIcons name="phone" color={color} size={26} />
+                    ),
+                }}
+            />
+            <MBNav.Screen
+                name="teste"
+                component={teste}
+                options={{
+                    tabBarLabel: 'teste',
+                    tabBarIcon: ({ color }) => (
+                        <MaterialCommunityIcons name="bone" color={color} size={26} />
                     ),
                 }}
             />
