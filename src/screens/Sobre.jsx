@@ -30,5 +30,7 @@ const styles = StyleSheet.create({
     fontSize: 42,
     textAlign: "center"
   }
+  
 });
+
 
