@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { View } from "react-native";
 import { TextInput } from "react-native-paper";
@@ -28,7 +27,7 @@ export const Loginemanu = () => {
             <MyComponent />
         </View>
     );
-};
+}; 
 
 const MyComponent = () => (
     <Button icon="heart" mode="contained" onPress={() => console.log('Pressed')}>
